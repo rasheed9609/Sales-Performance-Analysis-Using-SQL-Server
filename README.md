@@ -37,12 +37,12 @@ The dataset simulates retail sales transactions and includes revenue, cost, regi
 The dataset used in this project is a synthetic sales dataset generated programmatically using SQL logic with assistance from AI tools.
 
 The data generation script simulates realistic business scenarios including:
-	•	Multiple regions
-	•	Product categories
-	•	Sales representatives
-	•	Customer purchase behavior
-	•	Revenue and cost distributions
-	•	Transaction dates across 2023–2024
+	-	Multiple regions
+	-	Product categories
+	-	Sales representatives
+	-	Customer purchase behavior
+	-	Revenue and cost distributions
+	-	Transaction dates across 2023–2024
 
 The dataset contains 5,000 sales records and is designed specifically for practicing SQL-based business analysis.
 
