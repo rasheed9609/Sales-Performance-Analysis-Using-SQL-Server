@@ -22,3 +22,34 @@ select
 		2
 	),'%') as Gross_Margin_Percentage
 from current_month
+
+-- ============================================================================================
+--2. MONTH OVER MONTH REVENUE GROWTH
+-- ============================================================================================
+
+-- Month-Over-Month revenue comparison
+
+;with current_month as (
+select 
+	sum(amount) as current_revenue
+from sales
+where sale_date >= '2023-02-01' and sale_date < '2023-03-01'
+),
+
+previous_month as(
+select 
+	sum(amount) as previous_revenue
+from sales
+where sale_date >= '2023-01-01' and sale_date < '2023-02-01'
+)
+
+select 
+	c.current_revenue,
+	p.previous_revenue,
+	CONCAT(ROUND(
+			(c.current_revenue - p.previous_revenue) * 100.0 
+			/ nullif(p.previous_revenue,0),
+			2
+	),' %') as revenue_growth_percentage
+from current_month c
+cross join previous_month p
