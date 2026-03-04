@@ -9,29 +9,6 @@ The dataset simulates retail sales transactions and includes revenue, cost, regi
 
 ---
 
-# Key SQL Concepts Demonstrated
-
-- CTE (Single & Multiple)
-- ROW_NUMBER() with PARTITION BY
-- CROSS JOIN
-- NULLIF for safe division
-- Date range filtering
-
-
----
-
-# Business Metrics Implemented
-
-- Monthly revenue & order summary
-- Gross profit & margin %
-- Month-over-month growth
-- Region-wise performance analysis
-- Sales representative performance
-- Revenue contribution by product category
-- Top 3 customers (Overall & region-wise)
-
----
-
 # Dataset Information
 
 The dataset used in this project is a synthetic sales dataset generated programmatically using SQL logic with assistance from AI tools.
@@ -45,6 +22,28 @@ The data generation script simulates realistic business scenarios including:
 	-	Transaction dates across 2023–2024
 
 The dataset contains 5,000 sales records and is designed specifically for practicing SQL-based business analysis.
+
+---
+
+# Key SQL Concepts Demonstrated
+
+- CTE (Single & Multiple)
+- ROW_NUMBER() with PARTITION BY
+- CROSS JOIN
+- NULLIF for safe division
+- Date range filtering
+
+---
+
+# Business Metrics Implemented
+
+- Monthly revenue & order summary
+- Gross profit & margin %
+- Month-over-month growth
+- Region-wise performance analysis
+- Sales representative performance
+- Revenue contribution by product category
+- Top 3 customers (Overall & region-wise)
 
 ---
 
