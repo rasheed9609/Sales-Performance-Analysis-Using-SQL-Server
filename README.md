@@ -1,6 +1,6 @@
 # Sales-Performance-Analysis-Using-SQL-Server
 
--- Project Overview 
+# Project Overview 
 
 This project demonstrates end-to-end data analysis using SQL Server.
 Thi objective was to build core business KPIs and performance insights using structured SQL queries.
